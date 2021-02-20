@@ -1,0 +1,16 @@
+##########################################################################
+################# CAP 6640 - Natural Language Processing #################
+#################     Homework 4 - Bonus Question        #################
+##########################################################################
+
+  The files with ".bin" extension contain encoded float arrays each of which 
+corresponds to a signal in the time domain. The python script, load_data.py, 
+show how you can load the data in the .bin files. Since the data is serialized 
+using pickle version 3, you will need to load the data using python3.
+ 
+  Each .bin file stands for a label in your classification. When you load the 
+data in them, the loaded objects will contain a two dimensional array whose 
+elements contains individual signals, which are your samples.
+
+  Don't forget to split the data into train and test datasets. You may perform 
+5-fold or 10-fold cross validation during your evaluation.
